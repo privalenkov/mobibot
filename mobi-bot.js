@@ -147,6 +147,10 @@ export default class Mobibot {
         };
     }
     async _buildAndUpload () {
+        if (!fs.existsSync('./temp')){
+            fs.mkdirSync('temp');
+        }
+
         const build = await this._build(this.settings.pathToBuildsDir);
         if (!build) return false;
 
