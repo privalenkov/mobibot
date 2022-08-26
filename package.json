@@ -1,0 +1,21 @@
+{
+    "name": "mobibot",
+    "version": "1.0.0",
+    "description": "bot Mo for mobirise",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Privalenkov Kirill <privalenkovkirill@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "adm-zip": "^0.5.9",
+        "dotenv": "^16.0.1",
+        "fs-extra": "^10.1.0",
+        "googleapis": "^107.0.0",
+        "node-cron": "^3.0.2",
+        "node-telegram-bot-api": "^0.58.0"
+    }
+}
